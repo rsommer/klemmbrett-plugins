@@ -10,4 +10,7 @@ _setuptools.setup(
     author_email = "rol@ndsommer.de",
     url = "https://github.com/rsommer/klemmbrett-plugins",
     packages = _setuptools.find_packages(),
+    data_files = [
+        ("share/klemmbrett/", ["data/gtk-paste.svg", "data/gtk-paste2.svg"])
+    ]
 )
