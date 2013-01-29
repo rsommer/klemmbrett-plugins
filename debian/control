@@ -1,0 +1,14 @@
+Source: klemmbrett-plugins
+Section: python
+Priority: extra
+Maintainer: Roland Sommer <rol@ndsommer.de>
+Build-Depends: debhelper (>= 8.0.0), python-setuptools
+Standards-Version: 3.9.3
+Homepage: https://github.com/rsommer/klemmbrett-plugins
+Vcs-Git: git://github.com/rsommer/klemmbrett-plugins.git
+Vcs-Browser: https://github.com/rsommer/klemmbrett-plugins
+
+Package: klemmbrett-plugins
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Plugins for klemmbrett
