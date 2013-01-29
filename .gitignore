@@ -1,0 +1,10 @@
+*.py[co]
+/build/
+/debian/files
+/debian/klemmbrett-plugins.debhelper.log
+/debian/klemmbrett-plugins.postinst.debhelper
+/debian/klemmbrett-plugins.prerm.debhelper
+/debian/klemmbrett-plugins.substvars
+/debian/klemmbrett-plugins/
+/klemmbrett_plugins.egg-info/
+
