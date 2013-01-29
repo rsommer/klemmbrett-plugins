@@ -13,13 +13,12 @@ class AppIndicatorPlugin(_plugins.Plugin):
     def __init__(self, *args, **kwargs):
         super(AppIndicatorPlugin, self).__init__(*args, **kwargs)
 
-        self.indicator = _appindicator.Indicator (
-            "example-simple-client",
+        self.indicator = _appindicator.Indicator(
+            "klemmbrett",
             "indicator-messages",
             _appindicator.CATEGORY_APPLICATION_STATUS
         )
 
-        self.indicator.set_attention_icon ("indicator-messages-new")
         icon = self.options.get('icon-path', None)
 
         self.indicator.set_icon(_os.path.expanduser(icon))
